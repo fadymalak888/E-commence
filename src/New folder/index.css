@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.cart_button{
+  margin-right: 27px;
+  border-radius: 70% !important;
+  position: fixed ;
+  right: 0px;
+  bottom: 23px;
+  width: 57px;  
+  height: 57px; 
+  z-index: 51515;
+  background-color: #c9b233 !important;
+  border: none !important;
+}
+.cart_button i {
+  font-size: 20px;
+}
+.navbar-nav{
+  justify-content: center;
+  min-width: 24%
+}
+
+
+
+/*home component*/
+/*cart*/
+.flex_card_container{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.flex_card_element{
+  width: 25%;
+  margin-top: 15px;
+}
+.pagination{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.page-item.active .page-link{
+  z-index: 3;
+color: #fff;
+background-color: #c9b233 !important;
+border-color: #c9b233 !important;
+}
+.page-link{
+  color: #080850;
+}
+.img_carouse {
+  width: 100%;
+  height: 70vh;
+}
+
+/*footer*/
+.footerlist{
+  list-style: none;
+}
+/*//d7dbe6*/
+.footer{
+position: relative;
+background-color: #19202a;
+height: 450px;
+color: rgba(197, 168, 0, 0.932); 
+border-top-left-radius: 76px;
+bottom: 0;  
+}
+.footer li a {
+color: rgba(226, 222, 222, 0.98) !important;
+text-transform: uppercase;
+font-size: 14px;
+transition: .5s all;
+}
+.footer li:hover a {
+  color: #fff !important;
+  padding-left: 5px !important;
+}
+
+
+.flex-container-list{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  overflow: hidden;
+}
+.flex-container-list .flex-item{
+  width: 20%;
+  text-align: left;
+  font-size: 18px;
+  margin-top: 67px ;
+}
+.flex-container-list .flex-item ul{
+  list-style: none;
+}
+.flex-container-list .flex-item ul li:first-child{
+    margin-bottom: 6px; 
+    text-transform: uppercase;
+}
+.flex-container-list .flex-item ul li a{
+   color: rgb(58, 58, 58);
+   text-decoration: none;
+   padding-left: 10px; 
+}
+
+
+
+
+.flex-container-cu{ 
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.flex-container-cu .flex-item-cu{
+  height: 80px;
+  width: 80px;
+  align-self: center;
+  text-align: center;
+  background-color: #d7dbe6 ; 
+  border-radius: 25px;
+  margin: 14px;
+  transition: .5s all;
+  /*  background-color: #d7dbe6 ; */
+}
+.flex-container-cu .flex-item-cu:hover{
+  transform: translate3d(5px , -5px , 5px );
+  box-shadow: -3px 12px 29px #896b1293;
+  
+}
+
+.flex-container-cu .flex-item-cu i{padding-top: 20px;font-size: 44px;}
+.flex-container-cu .flex-item-cu:first-child i{color: #4267B2}
+.flex-container-cu .flex-item-cu:nth-child(2) i{color: #1DA1F2}
+.flex-container-cu .flex-item-cu:last-child i{color:	#075E54}
+
+
+/*
+contact us component
+*/
+.contactUsContainer{
+  width: 100% ;
+  height: 100vh; 
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.contactUsContainer form{
+  font-size: 21px;
+}
+.contactUsContainer form input{
+  margin-bottom: 15px;
+}
+.contactUsContainer form button{
+  width:100%;
+  height: 45px;
+}
+
+.contactusflex{
+  width: 45%;
+}
+.textArea{
+  margin-top: 10px;
+}
+.submitButton{
+  margin-top: 10px;
+}
+.details{
+  font-weight: bold;
+}
+.contactusflex ul{
+  list-style: none;
+}
+.listContact{
+  justify-content:flex-start;
+  list-style: none;
+}
+.listContact:first-child{
+  margin-top: 35px;
+}
+.listContact .left-side{
+  height: 100%;
+  width: 15%;
+  font-size: 61px; 
+  align-items: center;
+  text-align: center;
+  color: rgb(32, 32, 138);
+}
+
+.listContact .right-side{
+  margin-left: 3%;
+  width: 75%;
+  font-weight: bold;
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 15px;
+}
+
+
+.copyright{
+  bottom: 0;
+  background-color: rgb(25, 32, 42);
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  border-bottom-right-radius: 76px;
+  position: absolute;
+  
+}
+/*end footer*/
+
+/* pay now*/
+.paynow{
+  height: 100vh;
+}
+
+/* nav */
+.carousel-item img {
+  min-height: 70vh;
+}
+
+
